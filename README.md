@@ -14,11 +14,12 @@ measurements as the planet passes in front of its star. The procedure thus invol
 ## Files and requirements
 There are two Python scripts:
 - `read_files.py` which extracts, cleans, normalize and bin the data.
+- `notebook.ipynb` which is a Jupyter notebook version of the `read_files.py`
 - `model_data.py` which analyzes the previously binned data to estimate basic planetary parameters. This analysis uses Bayesian statistics, and particularly 
 a Markov Chain Monte Carlo algorithm. This script requires more scpecific Python libraries (`PyAstronomy`, and `mc3`).
 
 Each script requires some Python libraries:
-- For `read_files.py`: `astropy`, `scipy`, `numpy`, `pandas`, and `matplotlib`
+- For `read_files.py` and the Jupyter notebook `notebook.ipynb`: `astropy`, `scipy`, `numpy`, `pandas`, and `matplotlib`
 - For `model_data.py`: `numpy`, `pandas`, `matplotlib`, `PyAstronomy`, `mc3`
 
 ## Usage
