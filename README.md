@@ -1,6 +1,6 @@
 # Analysis of space telescope data
 
-Purpose: mining, cleaning, and analysis of space telescope data
+Purpose: mining, cleaning, and basic analysis of space telescope data
 
 Author: Hugo Hellard
 
