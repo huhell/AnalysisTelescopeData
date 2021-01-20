@@ -18,7 +18,7 @@ There are two Python scripts:
 a Markov Chain Monte Carlo algorithm. This script requires more scpecific Python libraries (`PyAstronomy`, and `mc3`).
 
 Each script requires some Python libraries:
-- For `read_files.py`: `astropy`, `numpy`, `pandas`, and `matplotlib`
+- For `read_files.py`: `astropy`, `scipy`, `numpy`, `pandas`, and `matplotlib`
 - For `model_data.py`: `numpy`, `pandas`, `matplotlib`, `PyAstronomy`, `mc3`
 
 ## Usage
