@@ -24,3 +24,5 @@ Each script requires some Python libraries:
 ## Usage
 Once you have the required Python libraries, simply download the files. Then, simply run first the `read_files.py` script. And, if you wish, then you may run 
 the `model_data.py` script.
+
+The result of the analysis, and in particular the unsual shape of the residual curve, shows that further analysis of the data is needed.
