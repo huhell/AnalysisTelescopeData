@@ -16,6 +16,11 @@ flux = df.flux.item()
 noise = df.noise.item()
 
 # Define the model
+# The parameters to estimate are:
+# - Inclination: the inclination of the planetary orbital plane
+# - up, um: some stellar parameters (I do not go in details on those here)
+# - a_Rs: the ratio between the star-planet orbital distance and the stellar radius
+# - Rp_Rs: the ratio between the planetary and stellar radii
 def mymodel(params_to_fit, time, period, epoch):
 
 	inclination, up, um, a_Rs, Rp_Rs = params_to_fit # parameters to estimate
