@@ -8,7 +8,7 @@ Author: Hugo Hellard
 I use public raw data from the Kepler space telescope, which observed the transit of the exoplanet HAT-P-7b in front of its host star.
 The data can be found and downloaded at: https://archive.stsci.edu/kepler/data_search/search.php
 
-I show here how to extract, clean, and eventually analyze the data to estimate basic planetary parameters. The targeted data is a time series of stellar flux 
+I show here how to extract, clean, and eventually analyze the data to estimate basic planetary parameters. The targeted dataset is a time series of stellar flux 
 measurements as the planet passes in front of its star. The procedure thus involves data analysis and modeling.
 
 ## Files and requirements
