@@ -12,7 +12,7 @@ I show here how to extract, clean, and eventually analyze the data to estimate b
 measurements as the planet passes in front of its star. The procedure thus involves data analysis and modeling.
 
 ## Files and requirements
-There are two Python scripts and one Jupiyter notebook:
+There are two Python scripts and one Jupyter notebook:
 - `read_files.py` which extracts, cleans, normalize and bin the data.
 - `notebook.ipynb` which is a Jupyter notebook version of the `read_files.py`
 - `model_data.py` which analyzes the previously binned data to estimate basic planetary parameters. This analysis uses Bayesian statistics, and particularly 
